@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: url(./ocean.jpg) no-repeat center fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #17f;
+    border: 55px solid white;
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+form input{
+   margin: 5px 0; 
+   padding: 5px;
+   outline: 0;
+   border: 1px solid black;
+   border-radius: 10px;
+}
+form input[type='submit']{
+    background-color: #17f;
+    border: 10px solid white;
+    color:white ;
+    margin-top: 20px;
+    padding: 6px 0;
+    cursor: pointer;
+
+}
